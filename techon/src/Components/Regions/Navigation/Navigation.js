@@ -31,16 +31,20 @@ const useStyles = makeStyles(theme => ({
     },
   },
   appBar: {
+   
     [theme.breakpoints.up('sm')]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
     },
+    background: 'white!important' ,
+    boxShadow: 'none',
   },
   menuButton: {
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('sm')]: {
       display: 'none',
     },
+    color: 'black!important'
   },
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
