@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Divider from '@material-ui/core/Divider';
+// import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
@@ -17,6 +17,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import './Navigation.css'
 
 const drawerWidth = 240;
 
@@ -60,6 +61,7 @@ function NavigationBar(props) {
   const { container } = props;
   const classes = useStyles();
   const theme = useTheme();
+
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -67,24 +69,25 @@ function NavigationBar(props) {
   };
 
   const drawer = (
-    <div>
+    <div className="navigation-bar">
       <div className={classes.toolbar} />
       <List>
-        {['Home', 'About Us'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <HomeIcon /> : <FaceIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button>
+            <ListItemIcon><HomeIcon /></ListItemIcon>
+            <ListItemText primary={"Home"} />
           </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['Services', 'Connect'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <SettingsApplicationsIcon  /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button>
+            <ListItemIcon><FaceIcon /></ListItemIcon>
+            <ListItemText primary={"About Us"} />
           </ListItem>
-        ))}
+          <ListItem button>
+            <ListItemIcon><SettingsApplicationsIcon /></ListItemIcon>
+            <ListItemText primary={"Services"} />
+          </ListItem>
+          <ListItem button>
+            <ListItemIcon><MailIcon /></ListItemIcon>
+            <ListItemText primary={"Connect"} />
+          </ListItem>
       </List>
     </div>
   );

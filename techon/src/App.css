@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+body{
+  background-color: #011627 !important;
+  margin: 0;
+}
+.MuiToolbar-root{
+  background-color: #011627 !important;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

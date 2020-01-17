@@ -6,7 +6,7 @@ import Footer from './Components/Regions/Footer/Footer';
 function App() {
   return (
     <React.Fragment>
-      < NavigationBar />
+      <NavigationBar/>
       <Footer/>
     </React.Fragment>
   );
