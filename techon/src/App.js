@@ -9,7 +9,7 @@ function App() {
     <React.Fragment>
       < NavigationBar />
       <Services />
-      <Footer/>
+      {/* <Footer/> */}
     </React.Fragment>
   );
 }

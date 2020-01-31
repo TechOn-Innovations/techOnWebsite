@@ -17,6 +17,13 @@ import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import logo from '/home/tebogomothelo/Code/techOnWebsite/techon/src/Images/logo.jpg'
 
 const drawerWidth = 240;
 
@@ -54,6 +61,9 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     padding: theme.spacing(3),
   },
+  contact: {
+    marginLeft: '5%',
+  }
 }));
 
 function NavigationBar(props) {
@@ -77,7 +87,6 @@ function NavigationBar(props) {
           </ListItem>
         ))}
       </List>
-      <Divider />
       <List>
         {['Services', 'Connect'].map((text, index) => (
           <ListItem button key={text}>
@@ -86,9 +95,16 @@ function NavigationBar(props) {
           </ListItem>
         ))}
       </List>
+      <img src={logo} style={{height: '250px', width:'250px'}}alt="logo" />
+      <div>
+        <MailOutlineIcon className={classes.contact}/>
+        <FacebookIcon className={classes.contact}/>
+        <TwitterIcon className={classes.contact} />
+        <InstagramIcon className={classes.contact} />
+      </div>
+    
     </div>
   );
-
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -118,7 +134,7 @@ function NavigationBar(props) {
               paper: classes.drawerPaper,
             }}
             ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
+              keepMounted: true,
             }}
           >
             {drawer}
@@ -134,6 +150,7 @@ function NavigationBar(props) {
           >
             {drawer}
           </Drawer>
+
         </Hidden>
       </nav>
     </div>
