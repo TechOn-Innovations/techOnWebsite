@@ -1,19 +1,24 @@
-.nav {
-  background-color: burlywood ;
+.custom-nav {
+  background-color: rgb(196, 188, 188);
 }
-.navLink {
-  font-size: 25px;
-  color: rgb(71, 70, 70) !important;
-  margin-left: 25px;
+.custom-link {
+  font-size: 20px;
+  color: rgb(12, 30, 53) !important;
+  margin-left: 30px;
+  text-decoration: none;
+  text-align: right !important;
 }
-@media only screen and (max-width: 600px) {
-
-  .navLink {
+@media only screen and (max-width: 568px) {
+  .custom-link {
     font-size: 15px;
-    margin-left: 0px;
- }
+    margin-left: 15px;
+  }
 
- .nav {
-   width: 110%;
- }
+  .nav {
+    width: 110%;
+  }
+  img {
+    width: 50px;
+    height: 25px;
+  }
 }
