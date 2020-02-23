@@ -18,3 +18,7 @@
     width: 110%;
   }
 }
+.story {
+  background-image: url("./techOn.png");
+  color: #FFFFFF;
+}

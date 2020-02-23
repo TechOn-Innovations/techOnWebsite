@@ -1,6 +1,5 @@
 import React from "react";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -10,7 +9,6 @@ const footerStyle = {
   backgroundColor: "#0E1E28",
   color: "#5CF9EF",
   fontSize: "50px",
-  color: "white",
   borderTop: "1px solid #0E1E28",
   textAlign: "center",
   padding: "20px",
