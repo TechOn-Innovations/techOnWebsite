@@ -1,9 +1,9 @@
 .custom-nav {
-  background-color: rgb(196, 188, 188);
+  background-color: #0e1e28;
 }
 .custom-link {
   font-size: 20px;
-  color: rgb(12, 30, 53) !important;
+  color: #5cf9ef !important;
   margin-left: 30px;
   text-decoration: none;
   text-align: right !important;
@@ -16,9 +16,5 @@
 
   .nav {
     width: 110%;
-  }
-  img {
-    width: 50px;
-    height: 25px;
   }
 }
