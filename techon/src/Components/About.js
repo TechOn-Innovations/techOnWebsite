@@ -7,7 +7,8 @@ function About() {
     <Container fluid  className="about-us">
       <Row style={{display: "flex"}}>
             <Col sm={4} className="story">
-            <h2>Meet The Team</h2>
+            <h2>WE ARE</h2>
+            <h2> Passion and Innovation.</h2>
             <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

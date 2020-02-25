@@ -16,7 +16,7 @@ function NavBar() {
             About
           </Nav.Link>
           <Nav.Link className="custom-link" href="/services">
-            Services
+            Solutions
           </Nav.Link>
           <Nav.Link className="custom-link" href="/contact">
             Contact
