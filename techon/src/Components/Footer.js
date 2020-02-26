@@ -29,7 +29,7 @@ const phantomStyle = {
 function Footer({ children }) {
   return (
     <div>
-      <div style={phantomStyle} />
+      <div className="phantom" style={phantomStyle} />
 
       <div style={footerStyle}>
         {children}

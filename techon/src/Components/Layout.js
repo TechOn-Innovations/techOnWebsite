@@ -5,7 +5,7 @@ class Layout extends React.Component {
 
     render(){
         return (
-            <Container>
+            <Container style={{backgroundColor: "black"}}>
                 {this.props.children}
             </Container>
         )

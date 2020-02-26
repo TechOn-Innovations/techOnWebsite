@@ -6,7 +6,7 @@ function About() {
   return (
     <Container fluid  className="about-us">
       <Row className="row row-about">
-            <Col sm={4} className="text">
+            <Col lg={6} className="text">
             <h1>WE ARE TECHON</h1>
             <h2>What we do</h2>
             <p>
@@ -27,7 +27,7 @@ function About() {
              Duis aute irure dolor in reprehenderit in voluptate velit.
             </p>
         </Col>
-        <Col sm={4} className="image">
+        <Col lg={6} className="image">
             <Image className="about-img" src={require('../techOn.png')} style={{height:"100%", width: "100%"}} />
             </Col>
       </Row>
