@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Kosugi&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Kosugi&display=swap"); */
 
 .custom-nav {
   background-color: #11212b;
@@ -22,31 +22,32 @@
   .row {
     display: flex;
     flex-direction: column-reverse;
- }
- .story, .image {
+  }
+  .story,
+  .image {
     margin-top: 0;
     padding-top: 0;
- }
- .text {
+  }
+  .text {
     margin-left: 5px !important;
     font-size: 15px;
     text-align: left !important;
     margin-top: 0;
     padding-top: 0;
- }
-
+  }
 }
 
-.about-us{
+.about-us {
   background-image: url("./techOn.png");
 }
 .text {
   background-image: url("./techOn.png");
   color: rgb(195, 255, 249);
-  margin: 20px 0px 0px 10px;
+  margin: 50px 0px 0px 50px;
   text-align: justify;
- font-family: 'Kosugi' ;
-
+  font-size: 20px;
+  font-weight: 100;
+  /* font-family: "Kosugi"; */
 }
 
 .row-about {
@@ -55,12 +56,11 @@
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
-@media only screen  and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-       .custom-link {
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .custom-link {
     font-size: 20px !important;
     margin-left: 15px;
   }
@@ -71,9 +71,13 @@
   .row {
     display: flex;
     flex-direction: column-reverse;
- }
   }
+}
 
+h2 {
+  font-weight: 500;
+}
 
-
-
+h1 {
+  font-weight: 500;
+}

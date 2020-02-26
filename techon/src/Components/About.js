@@ -7,7 +7,7 @@ function About() {
     <Container fluid  className="about-us">
       <Row className="row row-about">
             <Col lg={6} className="text">
-            <h1>WE ARE TECHON</h1>
+            {/* <h1>WE ARE TECHON</h1> */}
             <h2>What we do</h2>
             <p>
               By providing user-focused digital solutions
