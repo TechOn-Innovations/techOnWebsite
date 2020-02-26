@@ -15,16 +15,16 @@ function About() {
               we assisit start-ups and SMME's to have 
               the edge and take full advantage of the 
               digital age. Solving problems is our philosophy;
-              motivationg us to use technology as a 
+              motivating us to use technology as a 
               tool to innovate and improve lives.
             </p>
             <h2>Why we do it</h2>
             <p>
-             "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna
-             aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-             ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             Duis aute irure dolor in reprehenderit in voluptate velit.
+             We make this possible by streamlining processes,
+             making them better and faster. We belive in solving
+             problems in real time, putting great effort into 
+             making small differences that will have a sustainable
+             impact in the future.
             </p>
         </Col>
         <Col lg={6} className="image">

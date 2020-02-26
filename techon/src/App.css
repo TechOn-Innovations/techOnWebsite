@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Kosugi&display=swap");
 
 .custom-nav {
   background-color: #11212b;
@@ -44,6 +45,7 @@
   color: rgb(195, 255, 249);
   margin: 20px 0px 0px 10px;
   text-align: justify;
+ font-family: 'Kosugi' ;
 
 }
 
