@@ -35,6 +35,10 @@
  }
 
 }
+
+.about-us{
+  background-image: url("./techOn.png");
+}
 .text {
   background-image: url("./techOn.png");
   color: rgb(195, 255, 249);
@@ -44,17 +48,18 @@
 }
 
 .row-about {
-    background-image: url("./techOn.png");
+  background-image: url("./techOn.png");
+  height: 100vh;
 }
 
 .row {
     display: flex;
 }
 
-@media only screen  and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) 
+@media only screen  and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait) {
        .custom-link {
-    font-size: 15px;
+    font-size: 20px !important;
     margin-left: 15px;
   }
 
