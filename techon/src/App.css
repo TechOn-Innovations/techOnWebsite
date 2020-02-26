@@ -1,9 +1,9 @@
 .custom-nav {
-  background-color: #0e1e28;
+  background-color: #11212b;
 }
 .custom-link {
   font-size: 20px;
-  color: #5cf9ef !important;
+  color: #12ffef !important;
   margin-left: 30px;
   text-decoration: none;
   text-align: right !important;
@@ -17,8 +17,36 @@
   .nav {
     width: 110%;
   }
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ .story, .image {
+    margin-top: 0;
+    padding-top: 0;
+ }
+ .text {
+    margin-left: 5px !important;
+    font-size: 14px;
+    text-align: left !important;
+    margin-top: 0;
+    padding-top: 0;
+ }
+
 }
-.story {
+.text {
   background-image: url("./techOn.png");
-  color: #FFFFFF;
+  color: rgb(195, 255, 249);
+  margin: 20px 0px 0px 10px;
+  text-align: justify;
+
 }
+
+.row-about {
+    background-image: url("./techOn.png");
+}
+
+.row {
+    display: flex;
+}
+

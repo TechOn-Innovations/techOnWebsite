@@ -1,10 +1,13 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col, Image } from "react-bootstrap";
+import '../App.css';
 
 function Home() {
         return (
             <Container>
-                Home
+                <Row>
+                   Home 
+                </Row>
             </Container>
         )
     }

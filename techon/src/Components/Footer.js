@@ -15,7 +15,7 @@ const footerStyle = {
   position: "fixed",
   left: "0",
   bottom: "0",
-  height: "50px",
+  height: "40px",
   width: "100%"
 };
 
@@ -23,7 +23,6 @@ const phantomStyle = {
   display: "block",
   padding: "20px",
   height: "30px",
-  width: "100%",
   color: "#5CF9EF"
 };
 

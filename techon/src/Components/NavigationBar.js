@@ -10,7 +10,7 @@ function NavBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
           <Nav.Link href="/" className="custom-link">
-            TechOnInnovations
+            TechOn
           </Nav.Link>
           <Nav.Link className="custom-link" href="/about">
             About
