@@ -6,8 +6,7 @@ function About() {
   return (
     <Container fluid  className="about-us">
       <Row className="row row-about">
-            <Col lg={6} className="text">
-            {/* <h1>WE ARE TECHON</h1> */}
+            <Col lg={6} sm={6} className="text">
             <h2>What we do</h2>
             <p>
               By providing user-focused digital solutions
@@ -27,11 +26,11 @@ function About() {
              impact in the future.
             </p>
         </Col>
-        <Col lg={6} className="image">
+        <Col lg={6} sm={6}  className="image">
             <Image className="about-img" src={require('../techOn.png')} style={{height:"100%", width: "100%"}} />
             </Col>
       </Row>
-    </Container>
+      </Container>
   );
 }
 export default About;
