@@ -5,8 +5,8 @@ import '../App.css';
 function Home() {
         return (
             <Container>
-                <Row>
-                   Home 
+                <Row style={{color: 'white'}}>
+                   Home jadfdugijhgsrtdfyguijokl,erfokgjihknmekmsx
                 </Row>
             </Container>
         )

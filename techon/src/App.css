@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
-/* @import '@trendmicro/react-sidenav/dist/react-sidenav.css'; */
 
 body {
       background-image: url("./techOn.png");
@@ -42,6 +41,7 @@ body {
 
 .row {
   display: flex;
+  margin-left: 150px;
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -66,4 +66,14 @@ h1 {
 #navbar {
     width: 150px !important;
     height: 100%;
+    background-color: rgb(12, 19, 29);
 }
+#menu{
+    background-color: rgb(12, 19, 29);
+}
+.sidenav---navtext---1AE_f{
+    color: rgb(195, 255, 249) !important;
+    margin: 15px 0px 0px 30px;
+}
+
+

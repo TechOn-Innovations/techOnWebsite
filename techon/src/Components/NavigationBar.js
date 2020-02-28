@@ -26,7 +26,7 @@ function NavBar() {
                     }
                 }}
             >
-                <SideNav.Nav id="navbar" defaultSelected="home">
+                <SideNav.Nav id="navbar">
                     <NavItem eventKey="home">
                         <NavText>
                             Home
@@ -50,7 +50,7 @@ function NavBar() {
                 </SideNav.Nav>
             </SideNav>
             <main>
-                <Route path="/" exact component={props => <Home />} />
+                <Route path="/home" exact component={props => <Home />} />
                 <Route path="/about" component={props => <About />} />
                 <Route path="/services" component={props => <Services />} />
                 <Route path="/contact" component={props => <Contact />} />
