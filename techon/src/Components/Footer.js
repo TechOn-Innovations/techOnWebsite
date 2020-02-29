@@ -6,10 +6,10 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 
 const footerStyle = {
-  backgroundColor: "#0E1E28",
+  backgroundColor: "#051625",
   color: "#5CF9EF",
   fontSize: "50px",
-  borderTop: "1px solid #0E1E28",
+  borderTop: "1px solid #051625",
   textAlign: "center",
   padding: "20px",
   position: "fixed",

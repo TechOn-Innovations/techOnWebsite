@@ -1,7 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+.navbar {
+  background-color: rgb(145, 255, 246);
+  height: 70px;
+}
 
-body {
-      background-image: url("./techOn.png");
+.navbar-brand {
+  text-decoration: none !important;
+}
+
+.nav-link,.navbar-brand {
+  color: rgb(7, 71, 87) !important;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .navbar {
+    width: 110%;
+  }
 }
 
 @media only screen and (max-width: 568px) {
@@ -14,7 +36,6 @@ body {
     padding-top: 0;
   }
   .text {
-    margin-left: 5px !important;
     font-size: 15px;
     text-align: left !important;
     margin-top: 0;
@@ -22,16 +43,12 @@ body {
   }
 }
 
-.about-us {
-  background-image: url("./techOn.png");
-}
 .text {
-  background-image: url("./techOn.png");
   color: rgb(195, 255, 249);
-  margin: 60px 0px 0px 50px;
+  margin: 60px 0px 0px 20px;
   text-align: justify;
   font-weight: 100;
-  font-family: 'Spartan' ;
+  font-family: "Spartan";
 }
 
 .row-about {
@@ -41,7 +58,6 @@ body {
 
 .row {
   display: flex;
-  margin-left: 150px;
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -51,7 +67,7 @@ body {
   }
 
   .about-us {
-     height: 100vh;
+    height: 100vh;
   }
 }
 
@@ -63,17 +79,19 @@ h1 {
   font-weight: 500;
 }
 
-#navbar {
-    width: 150px !important;
-    height: 100%;
-    background-color: rgb(12, 19, 29);
+/* #navbar {
+  margin-top: 100px;
+  width: 150px !important;
+  height: 100% !important;
 }
-#menu{
-    background-color: rgb(12, 19, 29);
+#menu {
+  background-color: #c8e2f8;
 }
-.sidenav---navtext---1AE_f{
-    color: rgb(195, 255, 249) !important;
-    margin: 15px 0px 0px 30px;
+.sidenav---navtext---1AE_f {
+  color: rgb(9, 29, 41) !important;
+  margin: 15px 0px 0px 30px;
 }
 
-
+.sidenav---sidenav---_2tBP {
+  background:#c8e2f8 !important;
+} */

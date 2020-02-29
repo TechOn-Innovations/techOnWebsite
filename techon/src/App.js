@@ -17,15 +17,15 @@ function App() {
      < NavBar />
      </div> 
      <Layout>
-    {/* <Router>
+    <Router>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about"  component={About} />
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
       </Switch>
-      </Router> */}
-        {/* <Footer /> */}
+      </Router>
+        <Footer />
       </Layout>
     
    </React.Fragment>
