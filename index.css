@@ -5,7 +5,6 @@ body, html {
   line-height: 1.8;
 }
 
-/* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
@@ -15,4 +14,32 @@ body, html {
 
 .w3-bar .w3-button {
   padding: 16px;
+}
+
+ .w3-card, .w3-hide-medium, .w3-hide-large {
+  background-color: rgb(4, 28, 39) !important;
+}
+.w3-bar-item {
+  color: #04ffff;
+}
+
+#start{
+  background-color: #04ffff !important;
+  opacity: 1;
+}
+
+.what {
+  text-align: center;
+}
+
+.fas{
+  font-size: 80px;
+}
+
+.fas, .fa {
+  color:rgb(4, 28, 39);
+}
+
+.w3-card {
+  background-color: rgb(4, 28, 39) !important;
 }
