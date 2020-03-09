@@ -26,7 +26,7 @@ body, html {
   padding: 16px;
 }
 
-#myNavbar{
+#myNavbar, #mySidebar{
   background-color: rgb(4, 23, 39) !important;
 }
 
@@ -34,20 +34,29 @@ body, html {
   color: aqua !important;
 }
 
-.more-about, .about-us {
-  text-align: justify;
-}
-.w3-quarter{
-  margin-left: 75px;
-}
-
-@media screen and (max-width: 568px){
- .w3-quarter {
-  margin-left: 0px;
+/* @media screen and (max-width: 568px){
+ #logo {
+  margin-left: -80%;
+  margin-top: 10px;
  }
-}
+} */
 .fa{
   color:rgb(4, 23, 39) ;
+}
+
+#work{
+  background-color: rgb(155, 253, 253);
+  color: rgb(4, 23, 39);
+}
+
+/* #logo{
+  margin-left: 27%;
+  margin-top: -50px;
+} */
+
+#promo{
+  color: aqua;
+  background-color: rgb(4, 23, 39) !important;
 }
 </style>
 <body>
@@ -73,7 +82,7 @@ body, html {
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block  w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#solutions" onclick="w3_close()" class="w3-bar-item w3-button">SOLUTIONS</a>
@@ -99,30 +108,35 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-large about-us">By providing user-focused solutions that intersect technology and innovation,
+  <!-- <h3 class="w3-center">ABOUT THE COMPANY</h3>
+   -->
+   <img class="w3-image w3-round-large w3-center" id="logo" src="/inno.png" alt="logo" width="700" height="394">
+  <!-- <p class="w3-large about-us">By providing user-focused solutions that intersect technology and innovation,
     we assist SMME's to have the edge and take full advantage of the digital age. Solving problems is our
     phyilosophy, motivating us to use technology as a tool to innovate and improve lives. We make this possible
     by streamlining processes, making them better and faster. We believe in solving problems in real problems.
-    Putting effort into making small differences that will have sustainable impact in the future.</p>
+    Putting effort into making small differences that will have sustainable impact in the future.</p> -->
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
      <i class="fa fa-user w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">UX</p>
-      <p class="more-about">At TechOn, we are serious about user-experience. We understand that when your user is happy,your
-         business flourishes. So we go the extra mile to ensure that all our solutions are user-friendly</p>
+      <p class="w3-large">Innovation</p>
+      <p class="more-about">Solving problems is our
+        phyilosophy, motivating us to use technology as a tool to innovate and improve lives.
+        We believe in solving problems in real problems.
+        Putting effort into making small differences that will have sustainable impact in the future</p>
     </div>
+    <div class="w3-quarter">
+      <i class="fa fa-user w3-margin-bottom w3-jumbo"></i>
+       <p class="w3-large">UX</p>
+       <p class="more-about">At TechOn, we are serious about user-experience. We understand that when your user is happy,your
+          business flourishes. So we go the extra mile to ensure that all our solutions are user-friendly</p>
+     </div>
     <div class="w3-quarter">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Passion</p>
       <p class="more-about">We are passionate about innovation and problem-solving.This enables us to design solutions that are custom-built
          to suit the needs of your business.Solutions that are scalable and adabptable.</p>
     </div>
-    <!-- <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p class="more-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div> -->
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Support</p>
@@ -133,35 +147,34 @@ body, html {
 </div>
 
 <!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="work">
+<div class="w3-container" style="padding:128px 16px" id="work">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>We know design.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      <h3>COMING SOON...</h3>
+      <p>KEEP AN EYE OUT FOR OUR PROJECTS.</p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="/inno.png" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
 
 <!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+<div class="w3-container w3-row w3-center w3-padding-64" id="promo">
   <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
+    <span class="w3-xxlarge">1+</span>
     <br>Partners
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">55+</span>
+    <span class="w3-xxlarge">1+</span>
     <br>Projects Done
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">89+</span>
+    <span class="w3-xxlarge">1+</span>
     <br>Happy Clients
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
+    <span class="w3-xxlarge">2</span>
     <br>Meetings
   </div>
 </div>
