@@ -30,22 +30,14 @@ body, html {
   background-color: rgb(4, 23, 39) !important;
 }
 
-.w3-bar-item, .nav{
+.w3-bar-item, .nav, .fa-paper-plane{
   color: aqua !important;
 }
 
 .more-about, .about-us {
   text-align: justify;
 }
-/* .w3-quarter{
-  margin-left: 75px;
-} */
 
-/* @media screen and (max-width: 568px){
- .w3-quarter {
-  margin-left: 0px;
- }
-} */
 .fa{
   color:rgb(4, 23, 39) ;
 }
@@ -58,6 +50,19 @@ body, html {
   margin-left: 27%;
   margin-top: -50px;
 }
+
+#location, #mail {
+  color: rgb(4, 23, 39) ;
+}
+
+#contact{
+  background-color: rgb(146, 255, 255);
+}
+#send-message{
+  background-color: rgb(4, 23, 39) !important;
+  color: rgb(146, 255, 255);
+}
+
 </style>
 <body>
 
@@ -102,7 +107,7 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="about">
   <!-- <h3 class="w3-center">ABOUT THE COMPANY</h3>
    -->
-   <img class="w3-image w3-round-large w3-center" id="logo" src="/inno.png" alt="logo" width="700" height="394">
+   <!-- <img class="w3-image w3-round-large w3-center" id="logo" src="/inno.png" alt="logo" width="700" height="394">git -->
   <!-- <p class="w3-large about-us">By providing user-focused solutions that intersect technology and innovation,
     we assist SMME's to have the edge and take full advantage of the digital age. Solving problems is our
     phyilosophy, motivating us to use technology as a tool to innovate and improve lives. We make this possible
@@ -112,7 +117,7 @@ body, html {
     <div class="w3-quarter">
       <i class="fa fa-user w3-margin-bottom w3-jumbo"></i>
        <p class="w3-large">Innovation</p>
-       <p>Solving problems is our
+       <p class="more-about">Solving problems is our
          phyilosophy, motivating us to use technology as a tool to innovate and improve lives.
          We believe in solving problems in real problems.
          Putting effort into making small differences that will have sustainable impact in the future</p>
@@ -176,7 +181,7 @@ body, html {
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <img src="" alt="code" style="width:100%">
         <div class="w3-container">
           <!-- img of code -->
           <h3>Development</h3>
@@ -186,9 +191,9 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <img src="" alt="wireframes" style="width:100%">
         <div class="w3-container">
-          <!-- wireframes -->
+          <!-- wireframes img -->
           <h3>UX</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
@@ -196,9 +201,9 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <img src="" alt="landing page" style="width:100%">
         <div class="w3-container">
-          <!-- landing page -->
+          <!-- landing page img-->
           <h3>Design</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
@@ -206,9 +211,9 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <img src="" alt="banners" style="width:100%">
         <div class="w3-container">
-          <!-- banners -->
+          <!-- banners img-->
           <h3>Digital Marketing</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
@@ -217,24 +222,13 @@ body, html {
   </div>
 </div>
 
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right" id="location"></i> Johannesburg, South Africa</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right" id="mail"> </i> techoninnovation@gmail.com</p>
     <br>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
@@ -242,7 +236,7 @@ body, html {
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-black" type="submit">
+        <button class="w3-button" type="submit" id="send-message">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
