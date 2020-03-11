@@ -46,9 +46,8 @@ body, html {
   background-color: aqua;
 }
 
-#logo{
-  margin-left: 27%;
-  margin-top: -50px;
+#logo {
+  margin-left: 350px;
 }
 
 #location, #mail {
@@ -62,6 +61,14 @@ body, html {
   background-color: rgb(4, 23, 39) !important;
   color: rgb(146, 255, 255);
 }
+
+@media only screen and (max-width: 586px) {
+  #logo {
+  margin-left: -5px;
+}
+
+}
+
 
 </style>
 <body>
@@ -99,7 +106,6 @@ body, html {
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Where technology<br> meets innovation.</span><br>
-    <!-- <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">start project</a></p> -->
   </div> 
 </header>
 
@@ -107,7 +113,7 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="about">
   <!-- <h3 class="w3-center">ABOUT THE COMPANY</h3>
    -->
-   <!-- <img class="w3-image w3-round-large w3-center" id="logo" src="/inno.png" alt="logo" width="700" height="394">git -->
+   <img class="w3-image w3-round-large w3-center" id="logo" src="/inno.png" alt="logo" width="700" height="394">
   <!-- <p class="w3-large about-us">By providing user-focused solutions that intersect technology and innovation,
     we assist SMME's to have the edge and take full advantage of the digital age. Solving problems is our
     phyilosophy, motivating us to use technology as a tool to innovate and improve lives. We make this possible
