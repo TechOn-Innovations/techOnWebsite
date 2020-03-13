@@ -77,3 +77,7 @@ html {
     margin-left: -5px;
   }
 }
+
+#solutions{
+  margin-top: -200px !important;
+}
