@@ -1,0 +1,79 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/TechOn.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#myNavbar,
+#mySidebar,
+#promo {
+  background-color: rgb(4, 23, 39) !important;
+}
+
+.w3-bar-item,
+.nav,
+.fa-paper-plane,
+.fa-facebook-official,
+.fa-instagram,
+.fa-twitter {
+  color: aqua !important;
+}
+
+.more-about,
+.about-us {
+  text-align: justify;
+}
+
+.fa {
+  color: rgb(4, 23, 39);
+}
+
+#work {
+  background-color: aqua;
+  color: rgb(4, 23, 39);
+}
+
+#logo {
+  margin-left: 350px;
+}
+
+#location,
+#mail {
+  color: rgb(4, 23, 39);
+}
+
+#contact {
+  background-color: rgb(146, 255, 255);
+}
+#send-message {
+  background-color: rgb(4, 23, 39);
+  color: rgb(146, 255, 255);
+}
+
+@media only screen and (max-width: 586px) {
+  #logo {
+    margin-left: -5px;
+  }
+}
