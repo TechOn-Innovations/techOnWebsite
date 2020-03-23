@@ -61,7 +61,8 @@ html {
 
 #location,
 #mail {
-  color: rgb(4, 23, 39);
+  color: rgb(146, 255, 255);
+  background-color: rgb(10, 10, 10);
 }
 
 #contact {
