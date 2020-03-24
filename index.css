@@ -61,8 +61,8 @@ html {
 
 #location,
 #mail {
-  color: rgb(146, 255, 255);
-  background-color: rgb(10, 10, 10);
+  color: aqua;
+  background-color: black;
 }
 
 #contact {
@@ -71,14 +71,21 @@ html {
 #send-message {
   background-color: rgb(4, 23, 39);
   color: rgb(146, 255, 255);
+  margin-left: 45%;
 }
 
 @media only screen and (max-width: 586px) {
   #logo {
     margin-left: -5px;
   }
+  #contact {
+    padding: 16px !important;
+  }
+  #send-message {
+    margin-left: 25%;
+  }
 }
 
-#solutions{
+#solutions {
   margin-top: -200px !important;
 }
