@@ -46,7 +46,8 @@ html {
   text-align: justify;
 }
 
-.fa {
+.fa,
+.fas {
   color: rgb(4, 23, 39);
 }
 
@@ -84,8 +85,28 @@ html {
   #send-message {
     margin-left: 25%;
   }
+  .fa-facebook-official,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-map-marker,
+  .fa-envelope {
+    font-size: 30px !important;
+    margin-left: 15px;
+  }
 }
 
 #solutions {
   margin-top: -200px !important;
+}
+
+.w3-input {
+  width: 60% !important;
+  margin-left: 20%;
+}
+
+.fa-facebook-official,
+.fa-instagram,
+.fa-twitter {
+  font-size: 52px;
+  margin-left: 15px;
 }
