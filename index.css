@@ -18,7 +18,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/TechOn.png");
+  background: url("techon\ finale.jpg");
   min-height: 100%;
 }
 
