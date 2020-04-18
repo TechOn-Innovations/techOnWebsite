@@ -16,8 +16,6 @@ html {
 
 /* Full height image header */
 .bgimg-1 {
-  /* background-position: center;
-  background-size: cover; */
   background: url("techon\ finale.jpg")center center no-repeat;
   min-height: 100%;
 }
@@ -74,6 +72,7 @@ html {
 #contact {
   background-color: rgb(146, 255, 255);
 }
+
 #send-message {
   background-color: rgb(4, 23, 39);
   color: rgb(146, 255, 255);
@@ -88,10 +87,12 @@ html {
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, 0.6);
   }
+
   /* Override class to re-sizze header text */
   .w3-jumbo{
     font-size: 3em !important;
   }
+
   /* Override class to center header text */
   .w3-display-left{
     text-align: center;
@@ -105,9 +106,11 @@ html {
     display: block;
     margin: auto;
   }
+
   #contact {
     padding: 16px !important;
   }
+
   .fa-facebook-official,
   .fa-instagram,
   .fa-twitter,
@@ -117,10 +120,6 @@ html {
     margin-left: 15px;
   }
 }
-
-/* #solutions {
-  margin-top: -200px !important;
-} */
 
 .w3-input {
   width: 60% !important;
